@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e72846ab-929b-4942-b8a3-88250598d032" name="Default Changelist" comment="" />
+    <list default="true" id="e72846ab-929b-4942-b8a3-88250598d032" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SideMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/App.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1i4bRBxNDFLuMay3N0xlHKLiIB3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +66,7 @@
       <updated>1601169801616</updated>
       <workItem from="1601169803209" duration="321000" />
       <workItem from="1601200401307" duration="447000" />
-      <workItem from="1601211262063" duration="5080000" />
+      <workItem from="1601211262063" duration="6214000" />
     </task>
     <servers />
   </component>
@@ -67,9 +82,21 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="413" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601213382259" />
+    <state x="834" y="422" key="Github.ShareDialog" timestamp="1601246669407">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="834" y="422" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601246669407" />
+    <state x="817" y="141" key="Github.UntrackedFilesDialog" timestamp="1601246691974">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="817" y="141" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601246691974" />
     <state x="843" y="167" key="SettingsEditor" timestamp="1601245794110">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="843" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601245794110" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1601247109473">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601247109473" />
   </component>
 </project>
