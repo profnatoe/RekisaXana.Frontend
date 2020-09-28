@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e72846ab-929b-4942-b8a3-88250598d032" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SideMenu.vue" afterDir="false" />
+    <list default="true" id="e72846ab-929b-4942-b8a3-88250598d032" name="Default Changelist" comment="Added SideMenu Component">
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/assets/images/ZitoeX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SolarButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/views/Inventory.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SideMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SideMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/views/Home.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +37,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/solarcoffee.frontend/src/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,6 +56,14 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="I:\vue\SolarCoffee\solarcoffee.frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\vue\SolarCoffee\solarcoffee.frontend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\vue\SolarCoffee\solarcoffee.frontend\src\assets\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SolarCoffee/solarcoffee.frontend/src/App.vue" useBuiltInWebServerPort="true">
@@ -66,12 +85,25 @@
       <updated>1601169801616</updated>
       <workItem from="1601169803209" duration="321000" />
       <workItem from="1601200401307" duration="447000" />
-      <workItem from="1601211262063" duration="6214000" />
+      <workItem from="1601211262063" duration="9947000" />
+      <workItem from="1601272389065" duration="1903000" />
     </task>
+    <task id="LOCAL-00001" summary="Added SideMenu Component">
+      <created>1601247711875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601247711875</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added SideMenu Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SideMenu Component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="416" key="#ESLint" timestamp="1601245623226">
@@ -82,6 +114,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="413" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601213382259" />
+    <state x="689" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601248815299">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="689" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601248815299" />
     <state x="834" y="422" key="Github.ShareDialog" timestamp="1601246669407">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
