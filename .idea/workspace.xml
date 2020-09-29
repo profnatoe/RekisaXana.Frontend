@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e72846ab-929b-4942-b8a3-88250598d032" name="Default Changelist" comment="Added SideMenu Component">
-      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/scss/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/assets/images/ZitoeX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SolarButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/views/Inventory.vue" afterDir="false" />
+    <list default="true" id="e72846ab-929b-4942-b8a3-88250598d032" name="Default Changelist" comment="Added SideMenu, Inventory, &amp; SolarButton Component">
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/modals/NewProductModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/modals/ShipmentModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/modals/SolarModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarcoffee.frontend/types/Product.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SideMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SideMenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/scss/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SolarButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/components/SolarButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarcoffee.frontend/src/views/Inventory.vue" beforeDir="false" afterPath="$PROJECT_DIR$/solarcoffee.frontend/src/views/Inventory.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -31,7 +47,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i4bRBxNDFLuMay3N0xlHKLiIB3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,7 +104,11 @@
       <workItem from="1601169803209" duration="321000" />
       <workItem from="1601200401307" duration="447000" />
       <workItem from="1601211262063" duration="9947000" />
-      <workItem from="1601272389065" duration="1903000" />
+      <workItem from="1601272389065" duration="4758000" />
+      <workItem from="1601293511662" duration="1616000" />
+      <workItem from="1601330778049" duration="1354000" />
+      <workItem from="1601369077272" duration="122000" />
+      <workItem from="1601369220290" duration="7693000" />
     </task>
     <task id="LOCAL-00001" summary="Added SideMenu Component">
       <created>1601247711875</created>
@@ -95,15 +117,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601247711875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added SideMenu, Inventory, &amp; SolarButton Component">
+      <created>1601274421371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601274421371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added SideMenu Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SideMenu Component" />
+    <MESSAGE value="Added SideMenu, Inventory, &amp; SolarButton Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SideMenu, Inventory, &amp; SolarButton Component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="416" key="#ESLint" timestamp="1601245623226">
@@ -134,5 +176,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601247109473" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/solarcoffee.frontend/src/components/modals/SolarModal.vue</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
